@@ -13,8 +13,8 @@ const Contact: React.FC = () => {
             <Layout>
               <div className="flex flex-col w-screen h-screen justify-center items-center bg-gray-400">
                 <div className="w-full max-w-lg">
-                  <h1 className="block w-full text-center text-grey-darkest mb-6">Send me a message</h1>
                   <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
+                    <h1 className="block w-full text-center text-grey-darkest mb-6">Send me a message</h1>
                     <div className="mb-4">
                       <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name"> Name </label>
                       <input
