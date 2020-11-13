@@ -1,14 +1,14 @@
 import React from "react"
 import { Layout } from "../components/layout";
 import '../components/layout.css';
-import logo from '../images/brandon_profile.jpg';
+import logo from '../images/profile_square.jpg';
 
 const IndexPage: React.FC = () => {
 
   return (
     <Layout>
-      <div className="grid grid-cols-2 gap-4 divide-x divide-gray-900 bg-gray-400 h-screen">
-        <div className="col-span-1 m-2 place-self-center">
+      <div className="grid grid-cols-2 gap-4 divide-x divide-gray-900 bg-gray-400 h-screen w-screen">
+        <div className="col-span-1 m-8 place-self-center w-auto">
           <div className="flex flex-wrap justify-center">
             <div className="w-6/12 sm:w-4/12 px-4">
               <img src={logo} 
@@ -20,7 +20,7 @@ const IndexPage: React.FC = () => {
             <h1>Software Developer</h1>
           </div>
         </div>
-        <div className="col-span-1 m-2 place-self-center px-3">
+        <div className="col-span-1 m-1 place-self-center px-2">
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut leo justo. Phasellus pretium enim quis sollicitudin
           euismod. In sed leo vitae ex posuere eleifend vitae semper mauris. Nullam ultrices varius lorem, nec fermentum mi iaculis 

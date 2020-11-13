@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../components/header';
+import { Header } from "./header";
 import "./layout.css";
 
 export const Layout: React.FC = ({children}) => {
@@ -12,7 +12,7 @@ export const Layout: React.FC = ({children}) => {
     ]
 
     return (
-        <div className="container mx-auto">
+        <div className="container w-screen">
             <Header title={title} links={links}/>
             {children}
         </div>
